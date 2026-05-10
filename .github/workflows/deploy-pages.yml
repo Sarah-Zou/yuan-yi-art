@@ -1,7 +1,7 @@
 # Build static Next export and publish to GitHub Pages.
 # One-time repo setup: Settings → Pages → Build and deployment → Source: GitHub Actions
 #
-# Live URL: https://sarah-zou.github.io/yuan-yi-art/
+# Live URL (custom domain): https://yuan-yi.art/
 name: Deploy to GitHub Pages
 
 on:
@@ -32,8 +32,6 @@ jobs:
         run: npm ci
 
       - name: Build
-        env:
-          BASE_PATH: /yuan-yi-art
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
