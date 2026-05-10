@@ -2,6 +2,8 @@
 
 A premium, minimal, multi-page brand showcase website for a contemporary Chinese handmade craft brand. Built with Next.js (App Router) + TypeScript + Tailwind v4, configured for static export so the finished site can be deployed on any static host.
 
+The repo root includes a **`CNAME`** file (`yuan-yi.art`) for custom-domain hosting alongside GitHub Pages.
+
 This site is **display only**. There is no shopping cart, checkout, or ecommerce backend.
 
 ## Pages
