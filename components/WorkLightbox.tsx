@@ -4,6 +4,11 @@ import { AnimatePresence, motion, type Variants } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { assetUrl } from "@/lib/assetUrl";
+import {
+  buildSrcSet,
+  getImageEntry,
+  largestVariant,
+} from "@/lib/imageManifest";
 import type { Locale } from "@/lib/i18n";
 import { EASE_EDITORIAL, EASE_LINEN } from "./motion/tokens";
 
@@ -119,7 +124,21 @@ export default function WorkLightbox({
 
   if (!mounted) return null;
 
-  const currentSrc = assetUrl(images[index]);
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const currentEntry = getImageEntry(images[index]);
+  const lightboxVariants = currentEntry
+    ? currentEntry.variants.filter((v) => v.width >= 1080)
+    : null;
+  const usableVariants =
+    lightboxVariants && lightboxVariants.length > 0
+      ? lightboxVariants
+      : currentEntry?.variants;
+  const currentSrc = currentEntry && usableVariants
+    ? `${baseUrl}${largestVariant({ ...currentEntry, variants: usableVariants }).src}`
+    : assetUrl(images[index]);
+  const currentSrcSet = currentEntry && usableVariants
+    ? buildSrcSet({ ...currentEntry, variants: usableVariants }, baseUrl)
+    : undefined;
   const captionAlt =
     index === 0
       ? alt
@@ -162,9 +181,13 @@ export default function WorkLightbox({
                 <motion.img
                   key={currentSrc}
                   src={currentSrc}
+                  srcSet={currentSrcSet}
+                  sizes="(max-width: 768px) 92vw, (max-width: 1280px) 88vw, 80vw"
                   alt={captionAlt}
                   custom={direction}
                   draggable={false}
+                  decoding="async"
+                  fetchPriority="high"
                   onClick={(e) => e.stopPropagation()}
                   className="max-h-[78vh] max-w-full select-none rounded-sm object-contain shadow-[0_40px_120px_rgba(0,0,0,0.45)] md:max-h-[82vh]"
                   variants={slideVariants}

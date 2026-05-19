@@ -1,8 +1,7 @@
-import Image from "next/image";
-import { assetUrl } from "@/lib/assetUrl";
 import { localizedPath, type Locale } from "@/lib/i18n";
 import BilingualHeading from "@/components/BilingualHeading";
 import QuietLink from "@/components/QuietLink";
+import ResponsiveImage from "@/components/ResponsiveImage";
 import SectionLabel from "@/components/SectionLabel";
 import Reveal from "@/components/motion/Reveal";
 import {
@@ -41,8 +40,8 @@ export default function AboutView({ locale = "en" }: { locale?: Locale }) {
           </div>
           <div className="md:col-span-6">
             <div className="relative aspect-[4/5] overflow-hidden bg-linen/50 ring-1 ring-ink/[0.07]">
-              <Image
-                src={assetUrl("/images/brand_story_page/hero.png")}
+              <ResponsiveImage
+                src="/images/brand_story_page/hero.png"
                 alt={copy.heroAlt}
                 fill
                 priority
@@ -86,8 +85,8 @@ export default function AboutView({ locale = "en" }: { locale?: Locale }) {
             >
               <figure>
                 <div className="relative aspect-[4/5] overflow-hidden bg-linen/50 ring-1 ring-ink/[0.07]">
-                  <Image
-                    src={assetUrl(chapterImageSrc[index])}
+                  <ResponsiveImage
+                    src={chapterImageSrc[index]}
                     alt={copy.chapterImages[index].alt}
                     fill
                     className="object-cover"

@@ -1,9 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
-import { assetUrl } from "@/lib/assetUrl";
 import { localizedPath, type Locale } from "@/lib/i18n";
 import BilingualHeading from "@/components/BilingualHeading";
 import QuietLink from "@/components/QuietLink";
+import ResponsiveImage from "@/components/ResponsiveImage";
 import SectionLabel from "@/components/SectionLabel";
 import WorkCard from "@/components/WorkCard";
 import Parallax from "@/components/motion/Parallax";
@@ -81,8 +80,8 @@ export default function HomeView({ locale = "en" }: { locale?: Locale }) {
             <StaggerChild>
               <Parallax strength={10}>
                 <div className="relative aspect-[4/5] w-full overflow-hidden bg-linen/50 ring-1 ring-ink/[0.07]">
-                  <Image
-                    src={assetUrl("/images/brand/hero.png")}
+                  <ResponsiveImage
+                    src="/images/brand/hero.png"
                     alt={copy.heroAlt}
                     fill
                     priority

@@ -1,0 +1,2730 @@
+{
+  "/images/brand_story_page/founder.png": {
+    "width": 1678,
+    "height": 2098,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/brand_story_page/founder-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/brand_story_page/founder-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/brand_story_page/founder-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/brand_story_page/founder-1440.webp"
+      },
+      {
+        "width": 1678,
+        "src": "/images-optimized/brand_story_page/founder-1678.webp"
+      }
+    ]
+  },
+  "/images/brand_story_page/grandma.png": {
+    "width": 1920,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/brand_story_page/grandma-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/brand_story_page/grandma-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/brand_story_page/grandma-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/brand_story_page/grandma-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/brand_story_page/grandma-1920.webp"
+      }
+    ]
+  },
+  "/images/brand_story_page/hero.png": {
+    "width": 1729,
+    "height": 2161,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/brand_story_page/hero-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/brand_story_page/hero-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/brand_story_page/hero-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/brand_story_page/hero-1440.webp"
+      },
+      {
+        "width": 1729,
+        "src": "/images-optimized/brand_story_page/hero-1729.webp"
+      }
+    ]
+  },
+  "/images/brand_story_page/mother.png": {
+    "width": 1731,
+    "height": 2164,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/brand_story_page/mother-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/brand_story_page/mother-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/brand_story_page/mother-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/brand_story_page/mother-1440.webp"
+      },
+      {
+        "width": 1731,
+        "src": "/images-optimized/brand_story_page/mother-1731.webp"
+      }
+    ]
+  },
+  "/images/brand/hero.png": {
+    "width": 1719,
+    "height": 2149,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/brand/hero-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/brand/hero-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/brand/hero-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/brand/hero-1440.webp"
+      },
+      {
+        "width": 1719,
+        "src": "/images-optimized/brand/hero-1719.webp"
+      }
+    ]
+  },
+  "/images/brand/logo-mark.png": {
+    "width": 431,
+    "height": 333,
+    "variants": [
+      {
+        "width": 431,
+        "src": "/images-optimized/brand/logo-mark-431.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/baijian/details.png": {
+    "width": 1536,
+    "height": 1920,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/baijian/details-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/baijian/details-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/baijian/details-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/baijian/details-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/chanhua/baijian/details-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/baijian/pink.png": {
+    "width": 1700,
+    "height": 2125,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/baijian/pink-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/baijian/pink-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/baijian/pink-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/baijian/pink-1440.webp"
+      },
+      {
+        "width": 1700,
+        "src": "/images-optimized/collection_page/chanhua/baijian/pink-1700.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/baijian/rose.png": {
+    "width": 1712,
+    "height": 2140,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/baijian/rose-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/baijian/rose-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/baijian/rose-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/baijian/rose-1440.webp"
+      },
+      {
+        "width": 1712,
+        "src": "/images-optimized/collection_page/chanhua/baijian/rose-1712.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/baijian/scene_cover.png": {
+    "width": 1228,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene_cover-1080.webp"
+      },
+      {
+        "width": 1228,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene_cover-1228.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/baijian/scene.png": {
+    "width": 1228,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene-1080.webp"
+      },
+      {
+        "width": 1228,
+        "src": "/images-optimized/collection_page/chanhua/baijian/scene-1228.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/baijian/yinxing.png": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/baijian/yinxing-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/baijian/yinxing-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/baijian/yinxing-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/baijian/yinxing-1440.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/images-optimized/collection_page/chanhua/baijian/yinxing-1856.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/blue.png": {
+    "width": 1726,
+    "height": 2157,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/blue-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/blue-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/blue-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/blue-1440.webp"
+      },
+      {
+        "width": 1726,
+        "src": "/images-optimized/collection_page/chanhua/fashi/blue-1726.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/flower.png": {
+    "width": 1735,
+    "height": 2168,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/flower-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/flower-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/flower-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/flower-1440.webp"
+      },
+      {
+        "width": 1735,
+        "src": "/images-optimized/collection_page/chanhua/fashi/flower-1735.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/pink.png": {
+    "width": 1729,
+    "height": 2161,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/pink-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/pink-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/pink-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/pink-1440.webp"
+      },
+      {
+        "width": 1729,
+        "src": "/images-optimized/collection_page/chanhua/fashi/pink-1729.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/red.png": {
+    "width": 1702,
+    "height": 2127,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/red-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/red-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/red-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/red-1440.webp"
+      },
+      {
+        "width": 1702,
+        "src": "/images-optimized/collection_page/chanhua/fashi/red-1702.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/scene1_cover.png": {
+    "width": 1560,
+    "height": 1950,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1_cover-1440.webp"
+      },
+      {
+        "width": 1560,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1_cover-1560.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/scene1.png": {
+    "width": 1560,
+    "height": 1950,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1-1440.webp"
+      },
+      {
+        "width": 1560,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene1-1560.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/scene2.png": {
+    "width": 462,
+    "height": 578,
+    "variants": [
+      {
+        "width": 462,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene2-462.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/fashi/scene3.png": {
+    "width": 1722,
+    "height": 2153,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene3-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene3-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene3-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene3-1440.webp"
+      },
+      {
+        "width": 1722,
+        "src": "/images-optimized/collection_page/chanhua/fashi/scene3-1722.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/blue.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/blue-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/blue-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/blue-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/blue-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/blue-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/daisy_small.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy_small-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy_small-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy_small-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy_small-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy_small-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/daisy.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/daisy-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/details.png": {
+    "width": 1680,
+    "height": 2100,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/details-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/details-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/details-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/details-1440.webp"
+      },
+      {
+        "width": 1680,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/details-1680.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/gensen.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/gensen-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/gensen-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/gensen-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/gensen-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/gensen-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/rose.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/rose-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/rose-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/rose-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/rose-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/rose-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/yinxing_cover.png": {
+    "width": 1693,
+    "height": 2116,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing_cover-1440.webp"
+      },
+      {
+        "width": 1693,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing_cover-1693.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/pinghua/yinxing.png": {
+    "width": 1693,
+    "height": 2116,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing-1440.webp"
+      },
+      {
+        "width": 1693,
+        "src": "/images-optimized/collection_page/chanhua/pinghua/yinxing-1693.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/blue.png": {
+    "width": 1712,
+    "height": 2140,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/blue-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/blue-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/blue-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/blue-1440.webp"
+      },
+      {
+        "width": 1712,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/blue-1712.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/daisy.png": {
+    "width": 1733,
+    "height": 2166,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/daisy-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/daisy-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/daisy-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/daisy-1440.webp"
+      },
+      {
+        "width": 1733,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/daisy-1733.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/flowers_cover.png": {
+    "width": 1677,
+    "height": 2096,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers_cover-1440.webp"
+      },
+      {
+        "width": 1677,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers_cover-1677.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/flowers.png": {
+    "width": 1677,
+    "height": 2096,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers-1440.webp"
+      },
+      {
+        "width": 1677,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/flowers-1677.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/leaves.png": {
+    "width": 1699,
+    "height": 2123,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/leaves-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/leaves-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/leaves-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/leaves-1440.webp"
+      },
+      {
+        "width": 1699,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/leaves-1699.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/pink.png": {
+    "width": 1701,
+    "height": 2126,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/pink-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/pink-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/pink-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/pink-1440.webp"
+      },
+      {
+        "width": 1701,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/pink-1701.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/red.png": {
+    "width": 1718,
+    "height": 2147,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/red-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/red-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/red-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/red-1440.webp"
+      },
+      {
+        "width": 1718,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/red-1718.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/scene1.png": {
+    "width": 1373,
+    "height": 1716,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene1-1080.webp"
+      },
+      {
+        "width": 1373,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene1-1373.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/scene2.png": {
+    "width": 1191,
+    "height": 1488,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene2-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene2-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene2-1080.webp"
+      },
+      {
+        "width": 1191,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene2-1191.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/scene3.png": {
+    "width": 1578,
+    "height": 1972,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene3-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene3-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene3-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene3-1440.webp"
+      },
+      {
+        "width": 1578,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/scene3-1578.webp"
+      }
+    ]
+  },
+  "/images/collection_page/chanhua/xiongzhen/yinxing.png": {
+    "width": 1536,
+    "height": 1920,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/yinxing-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/yinxing-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/yinxing-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/yinxing-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/chanhua/xiongzhen/yinxing-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/chick/chick_all_cover.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all_cover-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all_cover-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/chick/chick_all.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_all-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/chick/chick_blue.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_blue-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_blue-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_blue-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_blue-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_blue-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/chick/chick_red.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_red-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_red-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_red-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_red-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_red-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/chick/chick_yellow.png": {
+    "width": 1550,
+    "height": 1938,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_yellow-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_yellow-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_yellow-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_yellow-1440.webp"
+      },
+      {
+        "width": 1550,
+        "src": "/images-optimized/collection_page/tongxie/chick/chick_yellow-1550.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/fish/fish_cover.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_cover-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_cover-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/fish/fish_detail1.png": {
+    "width": 1681,
+    "height": 2101,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail1-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail1-1440.webp"
+      },
+      {
+        "width": 1681,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail1-1681.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/fish/fish_detail2.png": {
+    "width": 1435,
+    "height": 1793,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail2-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail2-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail2-1080.webp"
+      },
+      {
+        "width": 1435,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish_detail2-1435.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/fish/fish.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/fish/fish-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/floral/all.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/floral/all-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/floral/all-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/floral/all-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/floral/all-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/floral/all-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/floral/floral_black_cover.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black_cover-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black_cover-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/floral/floral_black.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_black-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/floral/floral_blue.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_blue-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_blue-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_blue-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_blue-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_blue-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/floral/floral_detail1.png": {
+    "width": 1512,
+    "height": 1890,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail1-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail1-1440.webp"
+      },
+      {
+        "width": 1512,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail1-1512.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/floral/floral_detail2.png": {
+    "width": 1465,
+    "height": 1831,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail2-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail2-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail2-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail2-1440.webp"
+      },
+      {
+        "width": 1465,
+        "src": "/images-optimized/collection_page/tongxie/floral/floral_detail2-1465.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/tiger/tiger_all.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_all-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_all-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_all-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_all-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_all-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/tiger/tiger_detail1.png": {
+    "width": 1698,
+    "height": 2122,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail1-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail1-1440.webp"
+      },
+      {
+        "width": 1698,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail1-1698.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/tiger/tiger_detail2.png": {
+    "width": 1659,
+    "height": 2074,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail2-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail2-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail2-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail2-1440.webp"
+      },
+      {
+        "width": 1659,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail2-1659.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/tiger/tiger_detail3.png": {
+    "width": 1712,
+    "height": 2139,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail3-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail3-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail3-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail3-1440.webp"
+      },
+      {
+        "width": 1712,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_detail3-1712.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/tiger/tiger_plain_all_cover.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all_cover-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all_cover-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/tongxie/tiger/tiger_plain_all.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/tongxie/tiger/tiger_plain_all-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/A/details_cover.png": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/A/details_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/A/details_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/A/details_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/A/details_cover-1440.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/images-optimized/collection_page/xiangbao/A/details_cover-1856.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/A/details.png": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-1440.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-1856.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/A/details.webp": {
+    "width": 1800,
+    "height": 2234,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-1440.webp"
+      },
+      {
+        "width": 1800,
+        "src": "/images-optimized/collection_page/xiangbao/A/details-1800.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/A/scene.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/A/scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/A/scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/A/scene-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/A/scene-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/A/scene-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/A/set.png": {
+    "width": 1620,
+    "height": 2160,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/A/set-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/A/set-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/A/set-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/A/set-1440.webp"
+      },
+      {
+        "width": 1620,
+        "src": "/images-optimized/collection_page/xiangbao/A/set-1620.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/B/details.png": {
+    "width": 1536,
+    "height": 1818,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/B/details-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/B/details-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/B/details-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/B/details-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/B/details-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/B/large_scene.png": {
+    "width": 1573,
+    "height": 2097,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_scene-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_scene-1440.webp"
+      },
+      {
+        "width": 1573,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_scene-1573.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/B/large_set_cover.png": {
+    "width": 1655,
+    "height": 2206,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set_cover-1440.webp"
+      },
+      {
+        "width": 1655,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set_cover-1655.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/B/large_set.png": {
+    "width": 1655,
+    "height": 2206,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set-1440.webp"
+      },
+      {
+        "width": 1655,
+        "src": "/images-optimized/collection_page/xiangbao/B/large_set-1655.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/B/small_scene.png": {
+    "width": 2048,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_scene-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_scene-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_scene-1920.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/B/small_set.png": {
+    "width": 1806,
+    "height": 1355,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_set-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_set-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_set-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_set-1440.webp"
+      },
+      {
+        "width": 1806,
+        "src": "/images-optimized/collection_page/xiangbao/B/small_set-1806.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/C/details.png": {
+    "width": 2400,
+    "height": 1792,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/C/details-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/C/details-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/C/details-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/C/details-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/collection_page/xiangbao/C/details-1920.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/C/one.png": {
+    "width": 1305,
+    "height": 1740,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/C/one-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/C/one-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/C/one-1080.webp"
+      },
+      {
+        "width": 1305,
+        "src": "/images-optimized/collection_page/xiangbao/C/one-1305.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/C/scene_cover.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene_cover-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene_cover-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/C/scene.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/C/scene-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/blue_embroidered.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/blue_embroidered-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/blue_embroidered-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/blue_embroidered-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/blue_embroidered-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/D/blue_embroidered-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/pink_embroidered.png": {
+    "width": 2048,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink_embroidered-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink_embroidered-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink_embroidered-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink_embroidered-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink_embroidered-1920.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/pink.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/D/pink-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/red.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/red-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/red-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/red-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/red-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/D/red-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/scene_cover.png": {
+    "width": 2218,
+    "height": 1664,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene_cover-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene_cover-1920.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/scene.png": {
+    "width": 2218,
+    "height": 1664,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/collection_page/xiangbao/D/scene-1920.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiangbao/D/yellow.png": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiangbao/D/yellow-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiangbao/D/yellow-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiangbao/D/yellow-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiangbao/D/yellow-1440.webp"
+      },
+      {
+        "width": 1536,
+        "src": "/images-optimized/collection_page/xiangbao/D/yellow-1536.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/floral/all.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/floral/all-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/floral/all-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/floral/all-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/floral/all-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/xiedian/floral/all-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/floral/floral_detail_cover.png": {
+    "width": 1219,
+    "height": 1524,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail_cover-1080.webp"
+      },
+      {
+        "width": 1219,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail_cover-1219.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/floral/floral_detail.png": {
+    "width": 1219,
+    "height": 1524,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail-1080.webp"
+      },
+      {
+        "width": 1219,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral_detail-1219.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/floral/floral.png": {
+    "width": 2048,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral-1440.webp"
+      },
+      {
+        "width": 1920,
+        "src": "/images-optimized/collection_page/xiedian/floral/floral-1920.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/phenix/phenix_cover.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_cover-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_cover-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_cover-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/phenix/phenix_detail1.png": {
+    "width": 1697,
+    "height": 2122,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail1-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail1-1440.webp"
+      },
+      {
+        "width": 1697,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail1-1697.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/phenix/phenix_detail2.png": {
+    "width": 1696,
+    "height": 2119,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail2-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail2-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail2-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail2-1440.webp"
+      },
+      {
+        "width": 1696,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix_detail2-1696.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/phenix/phenix.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/xiedian/phenix/phenix-1638.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/swallow/swallow_pink_detail1.png": {
+    "width": 1711,
+    "height": 2139,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail1-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail1-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail1-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail1-1440.webp"
+      },
+      {
+        "width": 1711,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail1-1711.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/swallow/swallow_pink_detail2.png": {
+    "width": 1229,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail2-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail2-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail2-1080.webp"
+      },
+      {
+        "width": 1229,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail2-1229.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/swallow/swallow_pink_detail3.png": {
+    "width": 1293,
+    "height": 1616,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail3-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail3-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail3-1080.webp"
+      },
+      {
+        "width": 1293,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_detail3-1293.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/swallow/swallow_pink_scene_cover.png": {
+    "width": 1215,
+    "height": 1519,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene_cover-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene_cover-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene_cover-1080.webp"
+      },
+      {
+        "width": 1215,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene_cover-1215.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/swallow/swallow_pink_scene.png": {
+    "width": 1215,
+    "height": 1519,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene-1080.webp"
+      },
+      {
+        "width": 1215,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink_scene-1215.webp"
+      }
+    ]
+  },
+  "/images/collection_page/xiedian/swallow/swallow_pink.png": {
+    "width": 1638,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink-1440.webp"
+      },
+      {
+        "width": 1638,
+        "src": "/images-optimized/collection_page/xiedian/swallow/swallow_pink-1638.webp"
+      }
+    ]
+  },
+  "/images/works/cloud-insole.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/cloud-insole-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/cloud-insole-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/cloud-insole-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/cloud-insole-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/cloud-insole-1600.webp"
+      }
+    ]
+  },
+  "/images/works/crescent-sachet.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/crescent-sachet-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/crescent-sachet-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/crescent-sachet-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/crescent-sachet-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/crescent-sachet-1600.webp"
+      }
+    ]
+  },
+  "/images/works/crimson-peony-brooch.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/crimson-peony-brooch-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/crimson-peony-brooch-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/crimson-peony-brooch-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/crimson-peony-brooch-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/crimson-peony-brooch-1600.webp"
+      }
+    ]
+  },
+  "/images/works/indigo-tiger-shoes.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/indigo-tiger-shoes-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/indigo-tiger-shoes-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/indigo-tiger-shoes-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/indigo-tiger-shoes-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/indigo-tiger-shoes-1600.webp"
+      }
+    ]
+  },
+  "/images/works/lotus-sachet.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/lotus-sachet-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/lotus-sachet-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/lotus-sachet-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/lotus-sachet-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/lotus-sachet-1600.webp"
+      }
+    ]
+  },
+  "/images/works/osmanthus-ornament.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/osmanthus-ornament-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/osmanthus-ornament-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/osmanthus-ornament-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/osmanthus-ornament-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/osmanthus-ornament-1600.webp"
+      }
+    ]
+  },
+  "/images/works/peony-sachet.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/peony-sachet-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/peony-sachet-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/peony-sachet-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/peony-sachet-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/peony-sachet-1600.webp"
+      }
+    ]
+  },
+  "/images/works/phoenix-sachet.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/phoenix-sachet-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/phoenix-sachet-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/phoenix-sachet-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/phoenix-sachet-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/phoenix-sachet-1600.webp"
+      }
+    ]
+  },
+  "/images/works/pomegranate-hairpiece.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/pomegranate-hairpiece-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/pomegranate-hairpiece-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/pomegranate-hairpiece-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/pomegranate-hairpiece-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/pomegranate-hairpiece-1600.webp"
+      }
+    ]
+  },
+  "/images/works/twin-fish-insole.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/twin-fish-insole-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/twin-fish-insole-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/twin-fish-insole-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/twin-fish-insole-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/twin-fish-insole-1600.webp"
+      }
+    ]
+  },
+  "/images/works/vermillion-tiger-shoes.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/vermillion-tiger-shoes-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/vermillion-tiger-shoes-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/vermillion-tiger-shoes-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/vermillion-tiger-shoes-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/vermillion-tiger-shoes-1600.webp"
+      }
+    ]
+  },
+  "/images/works/white-magnolia-hairpin.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images-optimized/works/white-magnolia-hairpin-480.webp"
+      },
+      {
+        "width": 768,
+        "src": "/images-optimized/works/white-magnolia-hairpin-768.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/images-optimized/works/white-magnolia-hairpin-1080.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/images-optimized/works/white-magnolia-hairpin-1440.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images-optimized/works/white-magnolia-hairpin-1600.webp"
+      }
+    ]
+  }
+}

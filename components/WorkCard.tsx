@@ -3,8 +3,8 @@
 import { useState } from "react";
 import type { Work } from "@/content/works";
 import { getWorkText } from "@/content/localizedContent";
-import { assetUrl } from "@/lib/assetUrl";
 import type { Locale } from "@/lib/i18n";
+import ResponsiveImage from "./ResponsiveImage";
 import WorkCarousel from "./WorkCarousel";
 import WorkLightbox from "./WorkLightbox";
 
@@ -44,12 +44,16 @@ export default function WorkCard({
               onClick={() => setLightboxOpen(true)}
               className="relative block h-full w-full cursor-zoom-in outline-none focus-visible:ring-2 focus-visible:ring-ink/30"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={assetUrl(work.image)}
+              <ResponsiveImage
+                src={work.image}
                 alt={text.alt}
-                className="h-full w-full object-contain transition-transform duration-[1450ms] ease-[cubic-bezier(0.18,0.72,0.2,1)] will-change-transform group-hover:scale-[1.018]"
-                loading="lazy"
+                sizes={
+                  feature
+                    ? "(max-width: 768px) 100vw, 50vw"
+                    : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                }
+                fill
+                className="object-contain transition-transform duration-[1450ms] ease-[cubic-bezier(0.18,0.72,0.2,1)] will-change-transform group-hover:scale-[1.018]"
               />
               <div
                 aria-hidden="true"

@@ -1,8 +1,7 @@
-import Image from "next/image";
-import { assetUrl } from "@/lib/assetUrl";
 import { localizedPath, type Locale } from "@/lib/i18n";
 import BilingualHeading from "@/components/BilingualHeading";
 import QuietLink from "@/components/QuietLink";
+import ResponsiveImage from "@/components/ResponsiveImage";
 import Reveal from "@/components/motion/Reveal";
 import {
   StaggerChild,
@@ -106,8 +105,8 @@ export default function CraftView({ locale = "en" }: { locale?: Locale }) {
               >
                 <figure>
                   <div className="relative aspect-[4/5] overflow-hidden bg-linen/50 ring-1 ring-ink/[0.07]">
-                    <Image
-                      src={assetUrl(craft.image)}
+                    <ResponsiveImage
+                      src={craft.image}
                       alt={craftText.imageAlt}
                       fill
                       className="object-cover"
@@ -161,8 +160,8 @@ export default function CraftView({ locale = "en" }: { locale?: Locale }) {
               {motifs.map((motif) => (
                 <StaggerChild key={motif.en} as="li">
                   <div className="relative aspect-square overflow-hidden bg-linen/50 ring-1 ring-ink/[0.07]">
-                    <Image
-                      src={assetUrl(motif.src)}
+                    <ResponsiveImage
+                      src={motif.src}
                       alt={motif.imageAlt[locale]}
                       fill
                       className="object-cover"

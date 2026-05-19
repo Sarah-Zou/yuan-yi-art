@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import WorkLightbox from "./WorkLightbox";
-import { assetUrl } from "@/lib/assetUrl";
+import ResponsiveImage from "./ResponsiveImage";
 import type { Locale } from "@/lib/i18n";
 
 interface WorkCarouselProps {
@@ -156,12 +156,13 @@ export default function WorkCarousel({ images, alt, locale = "en" }: WorkCarouse
               aria-label={`${i + 1} of ${total}`}
               aria-hidden={i !== index}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={assetUrl(src)}
+              <ResponsiveImage
+                src={src}
                 alt={i === 0 ? alt : `${alt} — ${labels.view} ${i + 1}`}
-                className="pointer-events-none h-full w-full bg-linen/40 object-contain transition-transform duration-[1450ms] ease-[cubic-bezier(0.18,0.72,0.2,1)] will-change-transform group-hover:scale-[1.01]"
-                loading={i === 0 ? "eager" : "lazy"}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                fill
+                priority={i === 0}
+                className="pointer-events-none bg-linen/40 object-contain transition-transform duration-[1450ms] ease-[cubic-bezier(0.18,0.72,0.2,1)] will-change-transform group-hover:scale-[1.01]"
                 draggable={false}
               />
             </div>

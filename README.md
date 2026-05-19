@@ -123,6 +123,14 @@ To add a real photo for a work:
 
 Recommended: use the web-optimized WebP exports from the photo pipeline in the parent folder (`../photos_processed/web/`). JPG/PNG/WebP are all supported.
 
+### Responsive image pipeline
+
+The site uses a build-time image optimizer (`scripts/optimize-images.mjs`) that generates resized WebP variants of everything in `public/images/` into `public/images-optimized/` at widths `[480, 768, 1080, 1440, 1920]`. The runtime `<ResponsiveImage>` component reads `lib/imageManifest.json` and emits an `<img srcset>` so phones download a 30–80 KB version instead of the original multi-megabyte PNG.
+
+The optimizer runs automatically on `npm run dev` and `npm run build` (`predev` / `prebuild`). It's incremental — only sources newer than their variants get re-encoded. To force a clean rebuild, delete `public/images-optimized/` or run `npm run clean`.
+
+When you add a new image, just drop it into `public/images/` and reference it as `/images/...`. The optimizer picks it up on the next dev/build.
+
 For the Home hero image, add `public/images/brand/hero.jpg` and swap the placeholder block in `app/page.tsx` (search for `Image placeholder`).
 
 ## Design System (at a glance)

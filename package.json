@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx --yes serve@14 out --listen 3000",
-    "clean": "npx --yes rimraf@5 .next",
+    "clean": "npx --yes rimraf@5 .next public/images-optimized lib/imageManifest.json",
     "lint": "next lint",
-    "preview": "npx --yes serve@14 out --listen 4173"
+    "preview": "npx --yes serve@14 out --listen 4173",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "predev": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
