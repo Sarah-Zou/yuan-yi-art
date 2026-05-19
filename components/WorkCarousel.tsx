@@ -3,10 +3,12 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import WorkLightbox from "./WorkLightbox";
 import { assetUrl } from "@/lib/assetUrl";
+import type { Locale } from "@/lib/i18n";
 
 interface WorkCarouselProps {
   images: string[];
   alt: string;
+  locale?: Locale;
 }
 
 /**
@@ -23,7 +25,7 @@ interface WorkCarouselProps {
  *  - Pointer / touch swipe with a 40px threshold
  *  - A polite live region announces the current slide for screen readers
  */
-export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
+export default function WorkCarousel({ images, alt, locale = "en" }: WorkCarouselProps) {
   const [index, setIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -35,6 +37,23 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
   } | null>(null);
 
   const total = images.length;
+  const labels = locale === "zh"
+    ? {
+        previous: "上一张图片",
+        next: "下一张图片",
+        choose: "选择图片",
+        photo: "图片",
+        of: "/",
+        view: "视图",
+      }
+    : {
+        previous: "Previous photo",
+        next: "Next photo",
+        choose: "Choose photo",
+        photo: "Photo",
+        of: "of",
+        view: "view",
+      };
   const goTo = useCallback(
     (next: number) => {
       setIndex(((next % total) + total) % total);
@@ -140,7 +159,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={assetUrl(src)}
-                alt={i === 0 ? alt : `${alt} — view ${i + 1}`}
+                alt={i === 0 ? alt : `${alt} — ${labels.view} ${i + 1}`}
                 className="pointer-events-none h-full w-full bg-linen/40 object-contain transition-transform duration-[1450ms] ease-[cubic-bezier(0.18,0.72,0.2,1)] will-change-transform group-hover:scale-[1.01]"
                 loading={i === 0 ? "eager" : "lazy"}
                 draggable={false}
@@ -164,7 +183,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
               e.stopPropagation();
               prev();
             }}
-            aria-label="Previous photo"
+            aria-label={labels.previous}
             className="absolute left-2 top-1/2 z-10 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-ivory/80 text-ink/70 backdrop-blur-sm transition-opacity duration-500 hover:bg-ivory hover:text-ink md:opacity-0 md:focus-visible:opacity-100 md:group-hover/carousel:opacity-100"
           >
             <Chevron direction="left" />
@@ -175,7 +194,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
               e.stopPropagation();
               next();
             }}
-            aria-label="Next photo"
+            aria-label={labels.next}
             className="absolute right-2 top-1/2 z-10 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-ivory/80 text-ink/70 backdrop-blur-sm transition-opacity duration-500 hover:bg-ivory hover:text-ink md:opacity-0 md:focus-visible:opacity-100 md:group-hover/carousel:opacity-100"
           >
             <Chevron direction="right" />
@@ -185,7 +204,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
           <div
             className="absolute inset-x-0 bottom-2.5 z-10 flex items-center justify-center gap-1.5 opacity-0 transition-opacity duration-500 group-hover/carousel:opacity-100 focus-within:opacity-100"
             role="tablist"
-            aria-label="Choose photo"
+            aria-label={labels.choose}
           >
             {images.map((src, i) => {
               const active = i === index;
@@ -195,7 +214,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
                   type="button"
                   role="tab"
                   aria-selected={active}
-                  aria-label={`Photo ${i + 1} of ${total}`}
+                  aria-label={`${labels.photo} ${i + 1} ${labels.of} ${total}`}
                   onClick={(e) => {
                     e.stopPropagation();
                     goTo(i);
@@ -211,7 +230,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
       ) : null}
 
       <span className="sr-only" aria-live="polite">
-        Photo {index + 1} of {total}
+        {labels.photo} {index + 1} {labels.of} {total}
       </span>
 
       <WorkLightbox
@@ -220,6 +239,7 @@ export default function WorkCarousel({ images, alt }: WorkCarouselProps) {
         open={lightboxOpen}
         initialIndex={index}
         onClose={() => setLightboxOpen(false)}
+        locale={locale}
       />
     </div>
   );

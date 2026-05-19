@@ -3,29 +3,31 @@ import CollectionView from "@/components/pageviews/CollectionView";
 import { metadataCopy } from "@/content/siteCopy";
 
 export const metadata: Metadata = {
-  title: metadataCopy.en.collectionTitle,
-  description: metadataCopy.en.collectionDescription,
+  title: metadataCopy.zh.collectionTitle,
+  description: metadataCopy.zh.collectionDescription,
   alternates: {
-    canonical: "/collection/",
+    canonical: "/zh/collection/",
     languages: {
       en: "/collection/",
       "zh-CN": "/zh/collection/",
     },
   },
   openGraph: {
-    title: `Collection · Yuan-Yi Art`,
-    description: metadataCopy.en.collectionDescription,
+    title: `${metadataCopy.zh.collectionTitle} · Yuan-Yi Art`,
+    description: metadataCopy.zh.collectionDescription,
+    locale: "zh_CN",
+    alternateLocale: ["en_US"],
     images: [
       {
         url: "/images/home_page/og-preview.png",
         width: 1200,
         height: 630,
-        alt: "Selected handmade works from Yuan-Yi Art",
+        alt: "元艺手工坊精选手作",
       },
     ],
   },
 };
 
-export default function CollectionPage() {
-  return <CollectionView locale="en" />;
+export default function ZhCollectionPage() {
+  return <CollectionView locale="zh" />;
 }

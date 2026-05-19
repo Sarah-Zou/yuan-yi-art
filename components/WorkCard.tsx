@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 import type { Work } from "@/content/works";
+import { getWorkText } from "@/content/localizedContent";
 import { assetUrl } from "@/lib/assetUrl";
+import type { Locale } from "@/lib/i18n";
 import WorkCarousel from "./WorkCarousel";
 import WorkLightbox from "./WorkLightbox";
 
@@ -11,11 +13,17 @@ interface WorkCardProps {
   feature?: boolean;
   /** When true, hides the craft/materials note (used on the homepage preview). */
   compact?: boolean;
+  locale?: Locale;
 }
 
-export default function WorkCard({ work, feature = false, compact = false }: WorkCardProps) {
+export default function WorkCard({
+  work,
+  feature = false,
+  compact = false,
+  locale = "en",
+}: WorkCardProps) {
   const gallery = work.images && work.images.length > 1 ? work.images : null;
-  const altText = `${work.titleEn} — ${work.titleCn}`;
+  const text = getWorkText(work, locale);
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
   return (
@@ -27,19 +35,19 @@ export default function WorkCard({ work, feature = false, compact = false }: Wor
         }`}
       >
         {gallery ? (
-          <WorkCarousel images={gallery} alt={altText} />
+          <WorkCarousel images={gallery} alt={text.alt} locale={locale} />
         ) : work.image ? (
           <>
             <button
               type="button"
-              aria-label={`Enlarge ${altText}`}
+              aria-label={text.enlargeLabel}
               onClick={() => setLightboxOpen(true)}
               className="relative block h-full w-full cursor-zoom-in outline-none focus-visible:ring-2 focus-visible:ring-ink/30"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={assetUrl(work.image)}
-                alt={altText}
+                alt={text.alt}
                 className="h-full w-full object-contain transition-transform duration-[1450ms] ease-[cubic-bezier(0.18,0.72,0.2,1)] will-change-transform group-hover:scale-[1.018]"
                 loading="lazy"
               />
@@ -50,10 +58,11 @@ export default function WorkCard({ work, feature = false, compact = false }: Wor
             </button>
             <WorkLightbox
               images={[work.image]}
-              alt={altText}
+              alt={text.alt}
               open={lightboxOpen}
               initialIndex={0}
               onClose={() => setLightboxOpen(false)}
+              locale={locale}
             />
           </>
         ) : (
@@ -68,18 +77,20 @@ export default function WorkCard({ work, feature = false, compact = false }: Wor
 
       {/* Text — bilingual title, editorial description, soft craft note */}
       <div className="flex flex-col gap-1.5">
-        <span className="eyebrow">{work.categoryLabel.en}</span>
+        <span className="eyebrow">{text.category}</span>
         <h3 className="font-serif text-xl leading-snug md:text-2xl">
-          {work.titleEn}
+          {text.title}
         </h3>
-        <p className="cn text-sm text-muted">{work.titleCn}</p>
-        <p className="mt-2 text-sm leading-relaxed text-muted">
-          {work.description}
+        <p className={`${locale === "zh" ? "font-serif" : "cn"} text-sm text-muted`}>
+          {text.secondaryTitle}
         </p>
-        {work.materials && !compact ? (
+        <p className="mt-2 text-sm leading-relaxed text-muted">
+          {text.description}
+        </p>
+        {text.materials && !compact ? (
           <p className="mt-2 text-xs text-muted/60">
-            <span className="italic">Craft:</span>{" "}
-            {work.materials.toLowerCase()}
+            <span className="italic">{text.craftLabel}:</span>{" "}
+            {text.materials}
           </p>
         ) : null}
       </div>

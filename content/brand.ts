@@ -58,10 +58,10 @@ export const story = {
     {
       title: { cn: "创始人", en: "Founder" },
       body: [
-        "The founder studied in New Jersey, settled there, and built her professional life as an Economist.",
-        "Yet the farther she lived from home, the more deeply she missed the textures of it — the cloth, the thread, the patient work of hands, and the women who kept those traditions alive.",
-        "Yuan-Yi Art began in the year her grandmother passed away, as a way to keep that inheritance close and carry it into a wider world.",
-        "Each piece presented here is chosen with that continuation in mind. Every work is made by hand, often by women in rural villages whose skills deserve to be seen and sustained.",
+        "I came to New Jersey to study, and eventually settled there, building my professional life as an economist.",
+        "Yet the farther I lived from home, the more I found myself missing the textures of it — the cloth, the thread, the patient work of hands, and the women who kept those traditions alive.",
+        "Yuan-Yi Art began in the year my grandmother passed away, as a way to keep that inheritance close and carry it into a wider world.",
+        "Each piece I present here is chosen with that continuation in mind. Every work is made by hand, often by women in rural villages whose skills deserve to be seen and sustained.",
         "This is not a store. It is an offering — a small, considered way of passing something on.",
       ],
     },

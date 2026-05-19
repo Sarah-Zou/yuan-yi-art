@@ -146,22 +146,38 @@ Because `next.config.ts` sets `output: "export"`, `npm run build` produces a ful
 
 ### GitHub Pages (`sarah-zou/yuan-yi-art`)
 
-Live URL (after setup): `https://sarah-zou.github.io/yuan-yi-art/`
+**`BASE_PATH` depends on where the site is served from:**
+
+| Where visitors open the site | Set `BASE_PATH` at build? |
+|------------------------------|---------------------------|
+| Custom domain **`https://yuan-yi.art/`** (site at domain root) | **No** — omit `BASE_PATH` so CSS, JS, and images load from `/`. |
+| GitHub **project** Pages **`https://USER.github.io/REPO/`** (site under `/REPO/`) | **Yes** — set **`BASE_PATH=/REPO`** (leading slash, same as the URL path segment). Example: repo `yuan-yi-art` → `BASE_PATH=/yuan-yi-art`. |
+
+The included workflow **`.github/workflows/deploy-pages.yml`** runs `npm ci` and **`npm run build` without `BASE_PATH`**, which matches **custom domain** hosting for **`yuan-yi.art`**. If you deploy only to **`https://sarah-zou.github.io/yuan-yi-art/`** (no custom domain at root), add a build env in that workflow, for example:
+
+```yaml
+- name: Build
+  env:
+    BASE_PATH: /yuan-yi-art
+  run: npm run build
+```
+
+Live URLs (after setup): **`https://yuan-yi.art/`** (custom domain) or **`https://sarah-zou.github.io/yuan-yi-art/`** (default GitHub hostname + repo).
 
 This repository should use the **`site/` folder as the Git repo root** (the folder that contains `package.json`, `app/`, `public/`, and `.github/`).
 
-1. On GitHub, create an empty repository named **`yuan-yi-art`** under **`sarah-zou`**.
+1. On GitHub, create an empty repository named **`yuan-yi-art`** under your account (e.g. **`sarah-zou`**).
 2. **Settings → Pages → Build and deployment**: set **Source** to **GitHub Actions** (not “Deploy from a branch”).
-3. Push the `main` branch. The workflow **`.github/workflows/deploy-pages.yml`** runs `npm ci`, builds with `BASE_PATH=/yuan-yi-art`, and publishes **`out/`**.
+3. Push the `main` branch. The workflow runs `npm ci`, **`npm run build`**, and publishes **`out/`**.
 
-**Why `BASE_PATH`:** GitHub Pages serves project sites at `/REPO_NAME/`. The workflow sets `BASE_PATH` so routes and assets resolve correctly.
+**Why `BASE_PATH` matters:** GitHub project sites are served under **`/REPO_NAME/`**. Next must be told that base path or asset URLs point at the wrong place and the site looks unstyled.
 
 **Local builds**
 
-- Normal preview (root URLs): `npm run build` then `npm run preview`.
-- Same output as CI (subpath URLs): `BASE_PATH=/yuan-yi-art npm run build` (PowerShell: `$env:BASE_PATH="/yuan-yi-art"; npm run build`).
+- **Custom domain / root host** (same as current CI): `npm run build` then `npm run preview`.
+- **GitHub `*.github.io/REPO`**: `BASE_PATH=/REPO npm run build` (PowerShell: `$env:BASE_PATH="/REPO"; npm run build` — use your real repo name for `REPO`).
 
-Public images and gallery URLs use `NEXT_PUBLIC_BASE_PATH` via `lib/assetUrl.ts` so `/images/...` files load correctly under the subpath.
+Public images and gallery URLs use `NEXT_PUBLIC_BASE_PATH` via `lib/assetUrl.ts` so `/images/...` resolves correctly when `BASE_PATH` is set.
 
 ### Other hosts
 

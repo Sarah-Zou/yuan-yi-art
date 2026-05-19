@@ -4,6 +4,7 @@ import { AnimatePresence, motion, type Variants } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { assetUrl } from "@/lib/assetUrl";
+import type { Locale } from "@/lib/i18n";
 import { EASE_EDITORIAL, EASE_LINEN } from "./motion/tokens";
 
 const slideVariants: Variants = {
@@ -18,6 +19,7 @@ interface WorkLightboxProps {
   open: boolean;
   initialIndex: number;
   onClose: () => void;
+  locale?: Locale;
 }
 
 /**
@@ -41,6 +43,7 @@ export default function WorkLightbox({
   open,
   initialIndex,
   onClose,
+  locale = "en",
 }: WorkLightboxProps) {
   const [mounted, setMounted] = useState(false);
   const [index, setIndex] = useState(initialIndex);
@@ -48,6 +51,23 @@ export default function WorkLightbox({
   const restoreFocusRef = useRef<HTMLElement | null>(null);
 
   const total = images.length;
+  const labels = locale === "zh"
+    ? {
+        close: "关闭大图",
+        previous: "上一张图片",
+        next: "下一张图片",
+        photo: "图片",
+        of: "/",
+        view: "视图",
+      }
+    : {
+        close: "Close enlarged view",
+        previous: "Previous photo",
+        next: "Next photo",
+        photo: "Photo",
+        of: "of",
+        view: "view",
+      };
 
   useEffect(() => setMounted(true), []);
 
@@ -101,7 +121,9 @@ export default function WorkLightbox({
 
   const currentSrc = assetUrl(images[index]);
   const captionAlt =
-    index === 0 ? alt : `${alt} \u2014 view ${index + 1} of ${total}`;
+    index === 0
+      ? alt
+      : `${alt} \u2014 ${labels.view} ${index + 1} ${labels.of} ${total}`;
 
   return createPortal(
     <AnimatePresence>
@@ -119,7 +141,7 @@ export default function WorkLightbox({
         >
           <motion.button
             type="button"
-            aria-label="Close enlarged view"
+            aria-label={labels.close}
             onClick={onClose}
             className="absolute inset-0 cursor-zoom-out bg-ink/85 backdrop-blur-md"
             initial={{ opacity: 0 }}
@@ -157,12 +179,12 @@ export default function WorkLightbox({
                 <>
                   <LightboxNav
                     direction="left"
-                    label="Previous photo"
+                    label={labels.previous}
                     onClick={prev}
                   />
                   <LightboxNav
                     direction="right"
-                    label="Next photo"
+                    label={labels.next}
                     onClick={next}
                   />
                 </>
@@ -188,7 +210,7 @@ export default function WorkLightbox({
 
           <motion.button
             type="button"
-            aria-label="Close enlarged view"
+            aria-label={labels.close}
             onClick={onClose}
             className="absolute right-5 top-5 z-20 flex h-11 w-11 items-center justify-center rounded-full border border-ivory/25 bg-ink/40 text-ivory/85 backdrop-blur-md transition-colors duration-300 hover:border-ivory/50 hover:bg-ink/55 hover:text-ivory md:right-8 md:top-8 md:h-12 md:w-12"
             initial={{ opacity: 0, scale: 0.94 }}
@@ -200,7 +222,7 @@ export default function WorkLightbox({
           </motion.button>
 
           <span className="sr-only" aria-live="polite">
-            Photo {index + 1} of {total}
+            {labels.photo} {index + 1} {labels.of} {total}
           </span>
         </motion.div>
       ) : null}

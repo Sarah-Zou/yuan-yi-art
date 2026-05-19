@@ -35,13 +35,21 @@ export const metadata: Metadata = {
     template: `%s · ${brand.nameEn}`,
   },
   description: brand.shortIntro.en,
-  metadataBase: new URL("https://yuan-yi-art.com"),
+  metadataBase: new URL("https://yuan-yi.art"),
   openGraph: {
     title: `${brand.nameCn} · ${brand.nameEn}`,
     description: brand.shortIntro.en,
     locale: "en_US",
     alternateLocale: ["zh_CN"],
     type: "website",
+    images: [
+      {
+        url: "/images/home_page/og-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Yuan-Yi Art — Chinese handmade heritage, carried forward by women's hands",
+      },
+    ],
   },
   robots: { index: true, follow: true },
 };

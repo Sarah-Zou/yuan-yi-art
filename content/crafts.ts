@@ -21,7 +21,7 @@ export const crafts: CraftTradition[] = [
     titleEn: "Xiāngbāo · Herbal Sachets",
     subtitle: "Small fabric pouches carrying fragrance, memory, and blessing.",
     paragraphs: [
-      "Sewn from silk or cotton and filled with mugwort, cedar, or dried flowers, xiangbao are carried as seasonal charms at Duanwu, as quiet gifts between friends, and as small protections tucked into a child's clothing.",
+      "Sewn from silk or cotton and filled with dried botanical materials and fragrant herbs, xiangbao are carried as seasonal charms at Duanwu, given as small gifts between friends, and tucked into a child's clothing as a keepsake of care.",
       "Each sachet is embroidered before it is closed, so the blessing is sewn inside with the scent. At Yuan-Yi Art, sachets are stitched entirely by hand, following patterns remembered from village elders.",
     ],
     image: "/images/collection_page/xiangbao/B/large_scene.png",

@@ -30,7 +30,7 @@ export const categoryOrder: {
     cn: "香包",
     en: "Herbal Sachets",
     description:
-      "Fragrant textile charms sewn for protection, season, and memory — a tradition carried for more than two thousand years.",
+      "Fragrant textile charms sewn for festival season, memory, and cultural tradition — a craft carried for more than two thousand years.",
   },
   {
     id: "chanhua",
@@ -58,7 +58,7 @@ export const categoryOrder: {
 export const works: Work[] = [
   {
     slug: "lotus-sachet",
-    titleCn: "莲灯香囊",
+    titleCn: "莲灯香包",
     titleEn: "Lotus Lantern Sachet",
     category: "sachet",
     categoryLabel: { cn: "香包", en: "Herbal Sachet" },
@@ -75,14 +75,14 @@ export const works: Work[] = [
   },
   {
     slug: "crescent-sachet",
-    titleCn: "古法香囊",
+    titleCn: "古法香包",
     titleEn: "Traditional Pouch Sachet",
     category: "sachet",
     categoryLabel: { cn: "香包", en: "Herbal Sachet" },
     description:
       "A soft drawstring sachet in patterned silk, finished with a bright cord and tassel — made in both a petite wearable and a larger hanging form.",
     materials: "Silk brocade, drawstring cord, tassel, dried herbs",
-    inspiration: "Everyday sachets carried close for fragrance and care",
+    inspiration: "Everyday sachets carried close for fragrance and memory",
     image: "/images/collection_page/xiangbao/B/large_set_cover.png",
     images: [
       "/images/collection_page/xiangbao/B/large_set_cover.png",
@@ -94,7 +94,7 @@ export const works: Work[] = [
   },
   {
     slug: "peony-sachet",
-    titleCn: "绣花荷包香囊",
+    titleCn: "绣花荷包香包",
     titleEn: "Embroidered Pocket Sachet",
     category: "sachet",
     categoryLabel: { cn: "香包", en: "Herbal Sachet" },
@@ -321,7 +321,7 @@ export const works: Work[] = [
   },
   {
     slug: "phoenix-sachet",
-    titleCn: "锦粽香囊",
+    titleCn: "锦粽香包",
     titleEn: "Auspicious Pyramid Sachet",
     category: "sachet",
     categoryLabel: { cn: "香包", en: "Herbal Sachet" },

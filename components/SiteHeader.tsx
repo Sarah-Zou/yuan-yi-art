@@ -2,23 +2,27 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import BrandMark from "@/components/BrandMark";
 import { brand } from "@/content/brand";
-
-// Navigation links; order mirrors the site's narrative flow.
-const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/about/", label: "Brand Story" },
-  { href: "/collection/", label: "Collection" },
-  { href: "/craft/", label: "Craft Heritage" },
-  { href: "/contact/", label: "Contact" },
-];
+import { navCopy } from "@/content/siteCopy";
+import {
+  getLocaleFromPathname,
+  localizedPath,
+  stripLocale,
+  switchLocalePath,
+  type Locale,
+} from "@/lib/i18n";
 
 export default function SiteHeader() {
   // Track whether the page has been scrolled far enough that the header
   // should shift to its denser "on scroll" state. Threshold is small so
   // the change feels responsive but never jittery.
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const copy = navCopy[locale];
+  const currentPath = stripLocale(pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -38,9 +42,9 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-6 md:flex-row md:items-center md:justify-between md:py-8">
         {/* Wordmark: bilingual, restrained, serif-led. */}
         <Link
-          href="/"
+          href={localizedPath(locale, "/")}
           className="group flex items-center gap-3 leading-tight text-ink no-underline"
-          aria-label={`${brand.nameCn} ${brand.nameEn} home`}
+          aria-label={`${brand.nameCn} ${brand.nameEn} ${copy.homeAria}`}
         >
           <BrandMark
             priority
@@ -54,18 +58,69 @@ export default function SiteHeader() {
           </span>
         </Link>
 
-        <nav aria-label="Primary">
-          <ul className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted md:gap-x-8">
-            {NAV_LINKS.map((link) => (
-              <li key={link.href}>
-                <Link href={link.href} className="quiet-link">
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3 md:gap-x-8">
+          <nav aria-label={copy.ariaLabel}>
+            <ul className="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted md:gap-x-8">
+              {copy.links.map((link) => {
+                const isCurrent = link.href === "/"
+                  ? currentPath === "/"
+                  : currentPath.startsWith(link.href);
+
+                return (
+                  <li key={link.href}>
+                    <Link
+                      href={localizedPath(locale, link.href)}
+                      className="quiet-link"
+                      aria-current={isCurrent ? "page" : undefined}
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+
+          <LanguageSwitcher pathname={pathname} locale={locale} />
+        </div>
       </div>
     </header>
+  );
+}
+
+function LanguageSwitcher({
+  pathname,
+  locale,
+}: {
+  pathname: string;
+  locale: Locale;
+}) {
+  return (
+    <nav
+      aria-label={locale === "zh" ? "语言切换" : "Language"}
+      className="flex items-center gap-2 text-xs tracking-[0.18em] text-muted"
+    >
+      <Link
+        href={switchLocalePath(pathname, "en")}
+        aria-current={locale === "en" ? "true" : undefined}
+        className={`pb-0.5 transition-colors hover:text-ink focus-visible:text-ink ${
+          locale === "en" ? "text-ink" : "text-muted"
+        }`}
+      >
+        EN
+      </Link>
+      <span aria-hidden="true" className="text-ink/25">
+        |
+      </span>
+      <Link
+        href={switchLocalePath(pathname, "zh")}
+        aria-current={locale === "zh" ? "true" : undefined}
+        className={`pb-0.5 transition-colors hover:text-ink focus-visible:text-ink ${
+          locale === "zh" ? "text-ink" : "text-muted"
+        }`}
+      >
+        中文
+      </Link>
+    </nav>
   );
 }

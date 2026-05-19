@@ -3,29 +3,31 @@ import CraftView from "@/components/pageviews/CraftView";
 import { metadataCopy } from "@/content/siteCopy";
 
 export const metadata: Metadata = {
-  title: metadataCopy.en.craftTitle,
-  description: metadataCopy.en.craftDescription,
+  title: metadataCopy.zh.craftTitle,
+  description: metadataCopy.zh.craftDescription,
   alternates: {
-    canonical: "/craft/",
+    canonical: "/zh/craft/",
     languages: {
       en: "/craft/",
       "zh-CN": "/zh/craft/",
     },
   },
   openGraph: {
-    title: `Craft Heritage · Yuan-Yi Art`,
-    description: metadataCopy.en.craftDescription,
+    title: `${metadataCopy.zh.craftTitle} · Yuan-Yi Art`,
+    description: metadataCopy.zh.craftDescription,
+    locale: "zh_CN",
+    alternateLocale: ["en_US"],
     images: [
       {
         url: "/images/home_page/og-preview.png",
         width: 1200,
         height: 630,
-        alt: "Chinese handmade craft traditions — Yuan-Yi Art",
+        alt: "元艺手工坊手艺传承",
       },
     ],
   },
 };
 
-export default function CraftPage() {
-  return <CraftView locale="en" />;
+export default function ZhCraftPage() {
+  return <CraftView locale="zh" />;
 }

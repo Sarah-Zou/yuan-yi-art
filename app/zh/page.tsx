@@ -4,9 +4,10 @@ import { brand } from "@/content/brand";
 import { metadataCopy } from "@/content/siteCopy";
 
 export const metadata: Metadata = {
-  description: metadataCopy.en.homeDescription,
+  title: `${brand.nameCn} · ${brand.nameEn}`,
+  description: metadataCopy.zh.homeDescription,
   alternates: {
-    canonical: "/",
+    canonical: "/zh/",
     languages: {
       en: "/",
       "zh-CN": "/zh/",
@@ -14,18 +15,20 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `${brand.nameCn} · ${brand.nameEn}`,
-    description: metadataCopy.en.homeDescription,
+    description: metadataCopy.zh.homeDescription,
+    locale: "zh_CN",
+    alternateLocale: ["en_US"],
     images: [
       {
         url: "/images/home_page/og-preview.png",
         width: 1200,
         height: 630,
-        alt: "Yuan-Yi Art — Chinese handmade heritage, carried forward by women's hands",
+        alt: "元艺手工坊 — 中国民间手作文化品牌",
       },
     ],
   },
 };
 
-export default function HomePage() {
-  return <HomeView locale="en" />;
+export default function ZhHomePage() {
+  return <HomeView locale="zh" />;
 }

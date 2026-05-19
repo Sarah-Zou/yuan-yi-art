@@ -1,9 +1,20 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import BrandMark from "@/components/BrandMark";
 import { brand } from "@/content/brand";
+import { footerCopy, navCopy } from "@/content/siteCopy";
+import { localizedBrand } from "@/content/localizedContent";
+import { getLocaleFromPathname, localizedPath } from "@/lib/i18n";
 
 export default function SiteFooter() {
   const year = new Date().getFullYear();
+  const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const copy = footerCopy[locale];
+  const nav = navCopy[locale];
+  const brandCopy = localizedBrand[locale];
 
   return (
     <footer className="border-t border-ink/10 bg-linen/60">
@@ -20,45 +31,27 @@ export default function SiteFooter() {
             </div>
           </div>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
-            {brand.shortIntro.en}
+            {brandCopy.shortIntro}
           </p>
         </div>
 
         {/* Simple sitemap */}
         <div>
-          <p className="eyebrow mb-3">Site</p>
+          <p className="eyebrow mb-3">{copy.site}</p>
           <ul className="space-y-2 text-sm">
-            <li>
-              <Link className="quiet-link" href="/">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link className="quiet-link" href="/about/">
-                Brand Story
-              </Link>
-            </li>
-            <li>
-              <Link className="quiet-link" href="/collection/">
-                Collection
-              </Link>
-            </li>
-            <li>
-              <Link className="quiet-link" href="/craft/">
-                Craft Heritage
-              </Link>
-            </li>
-            <li>
-              <Link className="quiet-link" href="/contact/">
-                Contact
-              </Link>
-            </li>
+            {nav.links.map((link) => (
+              <li key={link.href}>
+                <Link className="quiet-link" href={localizedPath(locale, link.href)}>
+                  {link.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
         {/* Contact placeholders; handles can be swapped in content/brand.ts */}
         <div>
-          <p className="eyebrow mb-3">Connect</p>
+          <p className="eyebrow mb-3">{copy.connect}</p>
           <ul className="space-y-2 text-sm">
             <li>
               <a className="quiet-link" href={`mailto:${brand.email}`}>
@@ -87,9 +80,9 @@ export default function SiteFooter() {
       <div className="border-t border-ink/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-xs text-muted md:flex-row md:items-center md:justify-between">
           <span>
-            © {year} {brand.nameCn} · {brand.nameEn}. All works made by hand.
+            © {year} {brand.nameCn} · {brand.nameEn}. {copy.handmade}
           </span>
-          <span>{brand.location}</span>
+          <span>{brandCopy.location}</span>
         </div>
       </div>
     </footer>
